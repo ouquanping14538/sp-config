@@ -4,9 +4,7 @@ spring:
     name: item-service
   cloud:
     config:
-      override-none: true
-  profiles: item1
-  
+      override-none: true 
 server:
   port: 8001 
 eureka:

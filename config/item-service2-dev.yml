@@ -1,6 +1,5 @@
 
 spring:
-  profiles: item2
   application:
     name: item-service
   cloud:
