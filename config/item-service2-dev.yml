@@ -2,10 +2,11 @@
 spring:
   application:
     name: item-service
+    profiles: item2
   cloud:
     config:
       override-none: true
-  profiles: item2
+  
   
 server:
   port: 8002 
