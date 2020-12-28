@@ -5,10 +5,10 @@ spring:
   cloud:
     config:
       override-none: true
-  profiles: item1
+  profiles: item2
   
 server:
-  port: 8001 
+  port: 8002 
 eureka:
   client:
     service-url:
